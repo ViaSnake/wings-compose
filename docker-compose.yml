@@ -8,7 +8,7 @@ services:
     networks:
       - wings0
     ports:
-      - "8443:8443"
+      - "49600:49600"
       - "2022:2022"
     tty: true
     environment:
