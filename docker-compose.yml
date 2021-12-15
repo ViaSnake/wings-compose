@@ -22,7 +22,7 @@ services:
       - "/etc/pterodactyl/:/etc/pterodactyl/"
       - "/data/lib/pterodactyl/:/var/lib/pterodactyl/"
       - "/data/log/pterodactyl/:/var/log/pterodactyl/"
-      - "/backups/pterodactyl/:/var/lib/pterodactyl/pterodactyl/"
+      - "/backups/pterodactyl/:/var/lib/pterodactyl/backups/"
 
 networks:
   wings0:
