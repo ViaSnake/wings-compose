@@ -23,7 +23,7 @@ services:
       - "/data/lib/pterodactyl/:/var/lib/pterodactyl/"
       - "/data/log/pterodactyl/:/var/log/pterodactyl/"
       - "/tmp/pterodactyl/:/tmp/pterodactyl/"
-      - "/data/pterodactyl/volumes:/var/lib/pterodactyl/volumes"
+      - "/data/pterodactyl/volumes/:/var/pterodactyl/volumes/"
       - "/backups/pterodactyl/:/var/lib/pterodactyl/backups/"
 
 networks:
