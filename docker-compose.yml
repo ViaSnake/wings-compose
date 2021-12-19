@@ -18,13 +18,13 @@ services:
       WINGS_USERNAME: pterodactyl
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-      - "/data/docker/containers/:/var/lib/docker/containers/"
+      - "/data/docker/containers/:/data/lib/docker/containers/"
       - "/etc/pterodactyl/:/etc/pterodactyl/"
-      - "/data/lib/pterodactyl/:/var/lib/pterodactyl/"
-      - "/data/log/pterodactyl/:/var/log/pterodactyl/"
+      - "/data/lib/pterodactyl/:/data/lib/pterodactyl/"
+      - "/data/log/pterodactyl/:/data/log/pterodactyl/"
       - "/tmp/pterodactyl/:/tmp/pterodactyl/"
-      - "/data/pterodactyl/volumes/:/var/pterodactyl/volumes/"
-      - "/backups/pterodactyl/:/var/lib/pterodactyl/backups/"
+      - "/data/pterodactyl/volumes/:/data/pterodactyl/volumes/"
+      - "/backups/pterodactyl/:/data/lib/pterodactyl/backups/"
 
 networks:
   wings0:
